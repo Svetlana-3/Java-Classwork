@@ -13,19 +13,26 @@ public class Calculator {
 
         System.out.println("Ievadiet darbību (+,-,*,/): ");
         String action = scanner.nextLine();
+        scanner.close();
         //System.out.println(action);
         //switch
 
-        switch (action){
+        switch (action) {
             case "+":
-                    System.out.println(a+b);
-            break;
+                System.out.println(a + b);
+                break;
             case "-":
-                System.out.println(a-b);
+                System.out.println(a - b);
                 break;
             case "*":
-                    System.out.println(a*b);
+                System.out.println(a * b);
                 break;
+            case "/":
+                System.out.println(a / b);
+                break;
+            default:
+                System.out.println("Divāini");
+
 
         }
 
