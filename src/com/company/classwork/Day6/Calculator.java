@@ -14,8 +14,6 @@ public class Calculator {
         System.out.println("Ievadiet darbību (+,-,*,/): ");
         String action = scanner.nextLine();
         scanner.close();
-        //System.out.println(action);
-        //switch
 
         switch (action) {
             case "+":
@@ -32,8 +30,6 @@ public class Calculator {
                 break;
             default:
                 System.out.println("Divāini");
-
-
         }
 
     }
